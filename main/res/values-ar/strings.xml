@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">my medical companion</string>
+    <string name="OR">أو</string>
+    <string name="contactDoctor">اتصل بالطبيب</string>
+    <string name="medication">دواء</string>
+    <string name="recommendTests">الفحوصات المطلوبة</string>
+    <string name="links">روابط مفيدة</string>
+    <string name="cardiology">طب القلب</string>
+    <string name="contact">اتصل</string>
+    <string name="mail">example123@abc.com</string>
+    <string name="Health">الصحة</string>
+    <string name="medicalNews">أخبار  طبيةاليوم</string>
+    <string name="medicine">الدواء</string>
+    <string name="logOut">تسجيل خروج</string>
+    <string name="patients">فحص المريض</string>
+    <string name="rcommendMedication">نوصيدواء</string>
+    <string name="recommendedTests">الاختبارات الموصى بها</string>
+   <!--new-->
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup">سجل</string>
+    <string name="forgetPass">كلمه السر؟</string>
+    <string name="dermatology">الجلدية</string>
+    <string name="familyDoc">طبيب الأسرة</string>
+    <string name="taptosend">اضغط لإرسال الاتصال إلى 998</string>
+    <string name="doctor">طبيب</string>
+    <string name="patient">المريض</string>
+    <string name="nurse">ممرضة</string>
+    <string name="reports">التقارير</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمه السر</string>
+    <string name="confirmPass">تأكيد كلمة المرور</string>
+    <string name="emergency">حالة طوارئ</string>
+    <string name="medicineRecomDoc">الأدوية التي يوصي بها الطبيب</string>
+    <string name="testRecomDoc">الفحوصات</string>
+    <string name="writeMed">اكتب الأدوية الموصى بها هنا</string>
+    <string name="writeTest">اكتب الفحوصات المطلوبه</string>
+    <string name="neurology">علم الأعصاب</string>
+    <string name="psychiatry">الطب النفسي</string>
+    <string name="name">اسم</string>
+    <string name="nicFormat">784-1010-1010101-4 (الهوية الوطنية)</string>
+    <string name="search">يبحث</string>
+    <string name="date">01/01/1998</string>
+    <string name="nurseId">معرف الممرضة</string>
+    <string name="reportsByNurse">تقرير من ممرضة</string>
+    <string name="recommendd">نوصي</string>
+    <string name="create">خلق</string>
+</resources>
+<!--
+
+الأدوية التي يوصي بها الطبيب
+
+
+اكتب الأدوية الموصى بها هنا
+
+
+اكتب الاختبارات الموصى بها هنا
+
+Medications recomended by the doctor
+
+
+write recommended medicines here
+
+
+write recommended tests here
+
+
+
+
+Log in
+Sign up
+Forget your Password?
+Dermatology
+Family Doctor
+TAP TO SEND SOS MESSAGE TO 998
+Doctor
+Patient
+Nurse
+Reports
+Email
+Password
+CONFIRM PASSWORD
+Emergency
+
+OR
+Contact doctor
+Medication
+Recommend Tests
+Useful Links
+cardiology
+Contact
+Health
+Medical News Today
+See Patients
+Recommend Medication
+Recommended Tests
+Dermatology
+
+
+-->

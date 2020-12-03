@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llouter2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:padding="16dp"
+                android:src="@drawable/logo" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tvdocNamelyt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:counterEnabled="true"
+                app:counterMaxLength="20"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tvdocName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 @."
+                    android:hint="@string/name" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilemail2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:counterEnabled="true"
+                app:counterMaxLength="30"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tilemail3"
+                    android:layout_width="match_parent"
+                    android:inputType="textEmailAddress"
+                    android:layout_height="wrap_content"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 @."
+                    android:hint="@string/email" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilpassword2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:counterEnabled="true"
+                app:counterMaxLength="15"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tilpassword3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilconfirmpassword2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:counterEnabled="true"
+                app:counterMaxLength="15"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tilconfirmpassword3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/confirmPass"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tvDocIDlyt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:counterEnabled="true"
+                app:counterMaxLength="18"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tvDocID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/nicFormat"
+                    android:text="784-"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/contactDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:counterEnabled="true"
+                app:counterMaxLength="13"
+                app:errorEnabled="true"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tvDoctorContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="+0123456789"
+                    android:hint="+971001110011"
+                    android:inputType="number"
+
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+              <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/btnDOBdoc"
+                  android:background="@color/colorTransparent"
+                  android:drawableRight="@drawable/ic_calender"
+                  android:text="@string/date"
+                  android:textColor="@color/colorPrimaryDark"
+                  />
+              <Spinner
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/spDOBdoc"
+                  android:layout_gravity="center"
+                  />
+
+
+            <Button
+                android:id="@+id/btndoctorsignup2"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/background_signup"
+
+                android:padding="16dp"
+                android:text="@string/signup"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+           <!-- <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="@string/OR" />
+
+            <Button
+                android:id="@+id/btndoctorlogin2"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/background_login"
+
+                android:padding="16dp"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp" />-->
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="6">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="0"
+            android:src="@drawable/ic_profilepic" />
+
+        <TextView
+            android:id="@+id/tvemailDoctor"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:padding="5dp"
+            android:text="@string/name"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/btnMedicinceDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:background="@drawable/outline"
+            android:descendantFocusability="blocksDescendants"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:padding="5dp"
+            android:text="@string/medicine"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+</LinearLayout>

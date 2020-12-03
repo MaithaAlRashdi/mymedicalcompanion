@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".doctorspecialization">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:drawableTop="@drawable/ic_doctor"
+                android:gravity="center"
+                android:text="@string/contactDoctor" />
+
+            <Button
+                android:id="@+id/btncardiology"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+
+                android:layout_marginTop="5dp"
+                android:background="@drawable/outline"
+                android:drawableLeft="@drawable/ic_cardiology"
+                android:padding="10dp"
+                android:text="@string/cardiology"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btndermatology"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/outline"
+                android:drawableLeft="@drawable/ic_dermatology"
+                android:padding="10dp"
+                android:text="@string/dermatology"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btnfamilydoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/outline"
+                android:drawableLeft="@drawable/ic_family"
+                android:padding="10dp"
+                android:text="@string/familyDoc"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btnNeurodoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/outline"
+                android:drawableLeft="@drawable/ic_neuro"
+                android:padding="10dp"
+                android:text="@string/neurology"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btnPsycoDoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/outline"
+                android:drawableLeft="@drawable/ic_psyco"
+                android:padding="10dp"
+                android:text="@string/psychiatry"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

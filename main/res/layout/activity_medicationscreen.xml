@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".medicationscreen">
+    <Button
+        android:id="@+id/btncontactdoctor"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#03DAC5"
+        android:text="Medicines"
+        android:background="@drawable/background_login"
+
+        ></Button>
+    <Button
+        android:id="@+id/btnmedication"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="recomended tests"
+        android:textColor="#03DAC5"
+        android:background="@drawable/background_login"
+        android:layout_marginTop="10dp"
+        ></Button>
+    <Button
+        android:id="@+id/btnrecomendedtests"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Instructions"
+        android:textColor="#03DAC5"
+        android:background="@drawable/background_login"
+        android:layout_marginTop="10dp"
+        ></Button>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".usefullinks">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:drawableTop="@drawable/ic_link"
+        android:gravity="center"
+        android:text="@string/links" />
+
+    <Button
+        android:id="@+id/btnhealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/outline"
+        android:drawableLeft="@drawable/ic_health"
+        android:padding="10dp"
+        android:text="@string/Health"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/btnmedicalnewstoday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/outline"
+        android:drawableLeft="@drawable/ic_news"
+        android:padding="10dp"
+        android:text="@string/medicalNews"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btnmedicinenet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/outline"
+        android:drawableLeft="@drawable/ic_health"
+        android:padding="10dp"
+        android:text="@string/medicine"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</LinearLayout>
